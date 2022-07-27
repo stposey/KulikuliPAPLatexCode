@@ -1,0 +1,298 @@
+\documentclass[a4paper,15pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst} 
+\usepackage{natbib}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{amsmath}
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\setlength{\parindent}{4em}
+\setlength{\parskip}{1em}
+\usepackage[pdftex]{graphicx}
+\renewcommand{\baselinestretch}{1.5}
+\usepackage{lscape}
+\title{Protocol and Pre-Analysis Plan:\\
+Food safety training and rating programs for informal processed food markets in Northern Ghana }
+
+\author{Nicholas Magnan$^1$\thanks{{Please address correspondence to nmagnan@uga.edu or v.hoffmann@cgiar.org. This project was funded by the USAID Feed the Future Innovation Lab for Peanut.}}, Vivian Hoffmann$^{2,3}$, Nelson Opoku$^4$, Sean Posey$^1$, Afi Abujaja Mohammed$^4$} 
+
+\vspace{-1cm}
+\date{%
+{\scriptsize $^1$University of Georgia, $^2$International Food Policy Research Institute, $^3$Carleton University, \\ %
+$^4$University for Development Studies} \\
+\today %
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    Most food consumed in developing countries is transacted in informal markets. While these markets constitute an important source of low cost food for the poor, they can also present food safety hazards. In Ghana and throughout West Africa, kulikuli is a popular snack food made from groundnuts, and sold informally by roadside vendors. Kulikuli is fried and spiced, masking the morphological and taste quality of the groundnuts used to produce it. Poor quality and potentially hazardous groundnuts are thus frequently used in production. We evaluate the food safety and business impacts of a voluntary program through which kulikuli producers are trained on how to identify high-risk groundnuts and receive a food safety rating based on the level of contamination in their finished product through a randomized controlled trial.
+    
+\end{abstract}
+
+\section{Introduction}
+\noindent Most of the food consumed in developing countries is transacted through informal markets, which constitute a key source of low-cost food and employment for the poor \citep{jaffee2018}. There is evidence from products as diverse as milk and maize flour that those marketed informally have higher levels of contamination with safety hazards than those which are formally marketed \citep{kariuki2019, wanjala2018}. However, imposing strict regulatory standards typically developed for export markets on informal food business operators with limited capacity for compliance is unlikely to be effective at improving food safety. Moreover, such measures could lead to negative effects on food security and livelihoods. Rather, an approach that facilitates compliance by providing information, advice, and incentives to food business operators, and gives consumers a way to identify safer food, has been proposed as  a way forward for improving food safety in informal markets \citep{jaffee2018}. Such an approach could potentially constitute a first step toward the expansion of context-appropriate regulatory oversight to the informal sector.
+
+EXAMPLE FROM THAILAND
+
+Kulikuli is a groundnut snack typically produced by small-scale processor-vendors (``producers'' hereafter) and sold almost exclusively on informal and therefore unregulated markets. Kulikuli is a widely consumed spiced and fried groundnut-based snack, and kulikulizim is powdered kulikuli used to flavor yams and grilled meats. In what follows we refer to kulikuli and kulikulizim collectively as kulikuli. Because kulikuli is made of pulverized groundnuts, strongly spiced and fried, the morphological and flavor characteristics of low-quality groundnuts are masked. The informal market for kulikuli allows for high aflatoxin groundnuts, which are avoided for other uses due to inferior appearance and taste, to enter the food system. A recent study by \cite{opoku2021} tested various processed groundnut products sourced from local markets and found that aflatoxin levels in kulikuli and kulikulizim were 319 and 175 ppb on average, 15x and 8x the level found in roasted groundnuts, respectively. 
+
+Kulikuli producers can largely mitigate aflatoxin risk by using good quality groundnuts and sorting out shriveled, discolored, and visibly moldy nuts before processing. This process does, however, entail additional costs of production. Without a marked incentive from the demand side, providing producers with information alone may not be effective \citep{daniele2021}. In this study we will evaluate the impact of a two-pronged intervention aimed at improving food safety in kulikuli markets. We will provide producers information about the health risks associated with aflatoxin and  provide them with training on how to improve the safety of their product. We will test for aflatoxin, and provide compliant processors with marketing tools to signal the quality of their product.  We will provide kulikuli consumers information about the risk of aflatoxin in kulikuli and guide them towards producers who have participated in food safety training and achieved a high rating. We expect that the intervention will result in better producer practices and higher quality groundnut products. We expect sales volume to increase for compliant farmers. We may also see a price premium. We also expect production costs to increase, potentially dampening any positive effect on profits. We also expect that the intervention will result in consumers placing a higher importance on food safety and seeking out producers who have completed training and received a high food safety rating.
+
+
+\section{Setting and sample}
+\noindent Our study takes place in the greater Tamale area of Northern Region, Ghana. Northern Region is where the vast majority of groundnuts in Ghana are produced, and Tamale is the regional capital with a population of approximately one million. Kulikuli consumption is widespread in this area. The sample frame consists of kulikuli producers and consumers in Tamale and the nearby towns of Tolon (24 km from Tamale center) and Savelugu (25 km from Tamale center). 
+
+We identified \textcolor{red}{80} market clusters, each a circle with a radius of 1 km, across the study area. These clusters follow known neighborhoods. Larger neighborhoods only contain one cluster, situated to contain the most producers possible. A cluster may contain multiple smaller neighborhoods in densely populated areas. We chose a 1 km radius because kulikuli is generally purchased very close to where it will be consumed and would rarely be obtained from a producer more than 1 km away. It is either sold  directly to consumers out of the producer's home, on the street by the producer's children towards the end of the day. Within each cluster we identified all kulikuli producers resulting in a sample frame of 960 producers. Of these, 720 will end up in our sample (see below). Figure \ref{fig:clusters} shows the market clusters used for this study. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{Sample.png}    \caption{Market Clusters}
+    \label{fig:clusters}
+\end{figure}
+
+The study also includes a sample of kulikuli consumers. At baseline, we will approach two customers from each producer in our sample in order to have a sample of confirmed kulikuli consumers. As a screening question we will ask if they usually buy kulikuli in this neighborhood, to make sure consumer data is linked to the market cluster.
+
+\section{Interventions}
+\subsection{Producer intervention}
+\noindent The producer intervention has three components: training, testing, and rating.
+\subsubsection{Training}
+\noindent Current and former University for Development Studies students will train groups of selected producers, cluster by cluster, in meeting areas in or near each cluster. Training will cover what aflatoxin is, what risks it poses, and how to reduce the risk of aflatoxin contamination in kulikuli. Specifically, producers will be trained on the importance of using high quality groundnut stock and sorting out nuts that show morphological traits correlated with aflatoxin contamination. These include discoloration, mold, shriveling, and insect damage. Producers will be given photo charts showing these traits to take home with them. To get experience, producers will be asked to sort a sample of groundnuts and receive feedback from trainers. Producers will be trained on discarding sorted nuts so they do not re-enter the food supply. The study team will offer to purchase out-sorted nuts at the prevailing market price for the lowest quality nuts (which can be found in local markets) for safe disposal.
+
+At the conclusion of the training, producers will be given a sign saying that they have completed a training on producing safe kulikuli. The sign will have a place to display a color-coded rating card that can be changed from testing cycle to testing cycle.
+
+As part of the program, producers will have their kulikuli tested and rated for quality on a regular basis (see below). They will be trained on how to communicate their knowledge of aflatoxin and quality credential to better market their kulikuli. Training will take a total of 3-4 hours per group, and participating producers will be compensated \textcolor{red}{XXX GhC} and provided snacks and drinks. %\textcolor{red}{Producers completing the training will be given 10 bowls of aflatoxin-safe groundnut stock to produce kulikuli. (I don't think we should do this. It will tamp down effects on buying high quality nuts and sorting. It will also cost \$5000, will be a logistical headache, and make the intervention less policy relevant.) Thoughts?}
+
+The training script, prototype photo guide given to producers, and a photo of a prototype sign can be found in Appendix A. 
+
+\subsubsection{Testing}
+\noindent Two weeks after training we will collect kulikuli samples from producers for aflatoxin testing. This should be enough time for producers to go through their existing groundnut stock and acquire new stock. As part of training producers will be told that samples will be collected occasionally, but not exactly when or by who. In training we tell producers that we may also purchase kulikulikim or groundnut paste (if they have these for sale) for testing so they do not divert bad nuts to these products. Samples will tested in the Opoku Lab at the University for Development Studies by trained technicians. In addition to being used to determine whether a producer is certified, test results will be used as outcome data for the study (see below).
+
+\subsubsection{Rating}
+\noindent We will have three ratings for kulikil: safest (green), safer than the majority (yellow), and not safer than the majority (orange). The aflatoxin level to reach each rating will depend on prevailing aflatoxin levels in the entire sample. The green level can either be attained by being below 10 PPB, the Ghanaian standard for groundnuts, or by being below 25th percentile for aflatoxin content among untreated producers.\footnote{The official threshold for whole groundnuts is 10 PPB, whereas the threshold for groundnut snacks is 4 PPB. Given the levels for aflatoxin in Ghanaian groundnuts, and the fact that kulikuli is made essentially entirely of groundnuts, 4 PPB does not seem reasonable to attain. It is also important to note that there is little to no aflatoxin testing in formal or informal domestic food markets in Ghana making these thresholds largely irrelevant.} The yellow rating will be given to kulikuli that is between the 25th and 50th percentile (or and not below 10 PPB). The orange rating will be given to all other producers.
+
+We will conduct three additional tests every two weeks after the initial test. We will inform each producer of their result, and if their rating changes from the previous test, we will go to their storefront (unannounced) and swap rating cards. Regardless of their rating they will be able to keep the sign stating that they completed the training.
+
+\subsection{Consumer intervention} 
+\noindent Coinciding with the initial testing and rating cycle, the study team will launch a consumer information campaign in treatment market clusters only. To select which consumers will receive information we will use satellite data to identify homes. From the roster of homes we will randomly select 20 homes per cluster for enumerators to target. For multi-household buildings (apartment buildings, compounds), enumerators will target the first household they can find. If a selected household does not consume kulikuli it will be replaced with others from the list. 
+
+Pairs of trainers will go to the selected households to inform consumers about the risks of aflatoxin in kulikuli, the program to train some producers to make safer kulikuli, and the measures these producers are taking to reduce aflatoxin risk. Enumerators will show consumers the photo charts trained producers use to sort out potentially dangerous nuts, a photo of the signs trained producers received, and the three color coded rating cards that should be displayed on these signs. Trainers will be free to provide the same information to anyone who asks they what they are talking to people about, as the idea is to spread the information throughout the entire market cluster.
+
+
+\section{Randomization and intervention roll out}
+
+\subsection{Producers}
+\noindent First, we will randomize our interventions at the market cluster level. Treatment clusters will receive both the producer and consumer intervention, and control clusters will receive no intervention whatsoever. 
+
+Next, we will randomize recruitment into the producer intervention within clusters. In treated market clusters, we will randomly select half of the producers to invite to the training, testing, and certification program. The other half will be invited at the end of the study. This will allow us to test for effects on certified and non-certified producers, who may be affected through information spillovers, shifts in consumer preferences, or changing prices. Furthermore, offering these producers training and certification later will allow us to measure demand for certification not directly incited by the research team (see below) and reduce the potential of harming initially non-certified producers or causing conflict between producers. In control clusters, we will randomly select half of the producers to be in the study so that we have three equally sized treatment arms: 240 treated producers, 240 untreated producers in treated market clusters, and 240 control producers.
+
+We will stratify the randomization across market clusters based on geography and the number of producers in the cluster. We believe geography will be the best determinant of where a producer sources their groundnuts, which is they factor we believe will be most highly correlated with aflatoxin levels. Stratifying based on the number of producers will help us get the same number of producers in the three treatment arms. Because we will only stratify on these variables, we can assign treatment before collecting baseline data, which has two advantages. First, it allows us to construct a sample with an average of 12 producers in treatment market clusters (half of whom will be treated) and an average of six producers in control clusters. Second, it makes it possible to invite (treatment) producers to training upon completion of the baseline survey.
+
+\subsection{Consumers}
+\noindent Coinciding with producer training, we will implement the consumer intervention in all treated market clusters. This means we will estimate the combined effect of a producer and consumer intervention, which we believe is the most likely way a program like this would be implemented in practice.  This design does not allow us to estimate the effects of the producer intervention alone, or to estimate the \emph{additional} effect of the consumer intervention when the produce intervention is in place. However, it gives us maximum power to estimate the (combined) treatment effect we are most interested in.
+
+Figure \ref{fig:timeline} contains a study timeline for the intervention roll-out and data collection activities (described below).\footnote{As of this writing (\today) the plan is to begin training on August 8, 2022.}
+
+
+\begin{figure}[H]
+    \centering
+    \caption{Study timeline}
+    \vspace{1cm}
+    \includegraphics[width=\textwidth]{Timeline.jpg}
+    \label{fig:timeline}
+\floatfoot{Notes: $P_t$ refers to producer data at $t=0, 1, 2, 3, 4$. $C_t$ refers to consumer data at $t=0, 1, 2$. T indicates testing, either for certification or data collection purposes, and R indicates rating.}
+\end{figure}
+
+
+\section{Data collection}
+
+\subsection{Producer data}
+
+\noindent Before inviting any producers to participate in the training and rating program we will collect baseline data from all 720 sample kulikuli producers. Enumerators (current and former UDS students) will collect data on production practices, groundnut procurement, quantity produced, home kulikuli consumption, and kulikuli marketing and sales. At this time enumerators will purchase a kulikuli sample for aflatoxin testing (without telling producers what it is for).
+
+One week before the baseline survey, enumerators will provide producers with a notebook to help them record kulikuli production and sales, as well as household kulikuli consumption, and train them on how to do so. Ideally we will be able to use this data instead of, or in addition to, recall data collected in the baseline and follow-up surveys.
+
+The study will include four post-intervention surveys for all producers. The first of these surveys will take place two weeks after the initial round of testing and certification, and subsequent surveys will take place every two weeks. Enumerators will collect data from the producers' log books, and also get recall data on production, sales, and consumption if needed. The resulting producer data set will have up to  $720 \times 5 = 3600$ observations with survey and logbook data.
+
+Coinciding with the baseline and two of the four follow-up surveys, enumerators will purchase kulikuli for testing from treatment producers. This test will be used for the next round of certification. Enumerators will collect samples from untreated producers coinciding with the first and fourth post-treatment surveys only due to the high cost of testing and the relatively large number of untreated producers. The data will include up to $720 \times 3 = 2160$ aflatoxin test results.\footnote{We will conduct an additional 480 tests for treated producers only that will be used for certification purposes only, as they will not have comparable samples from untreated producers.}
+
+\subsection{Consumer data}
+\noindent To understand if and how the interventions described above increase consumer awareness or change consumer behavior we will collect consumer data. At baseline, enumerators will identify two customers making leaving each kulikuli producer in our sample and approach them to conduct a brief survey. The survey will include questions on their kulikuli selection criteria, where they purchase kulikuli, and  their knowledge of food safety concerns (specifically aflatoxin) in kulikuli, and their knowledge of the training and rating system.
+
+We will identify two consumers per producer in the sample for a total of 1440 consumers. At the conclusion of each initial consumer survey we will collect a phone number with which to conduct two follow-up surveys approximately four and eight weeks later ask similar questions. This will result in $3 \times 1440 = 7200$ consumer observations.
+
+
+\subsection{Demand for training and certification}
+
+\noindent To understand whether producers see a value in the training and rating program, we will estimate demand for participation among producers not initially invited. To do this, we will offer all untreated producers the opportunity to be trained and have their groundnuts rated after the final post-intervention round of data collection. 
+
+First, we will ask producers if they are aware of the training and rating program. We expect that many producers in treated market clusters and few if any producers in control market clusters will know about it. Next, we will explain the program and ask each initially untreated producer to choose between participating and receiving some amount of cash. The amount of cash will be randomly drawn and revealed to the producer before they make their choice. With this data we can derive demand curves for untreated producers in treatment market clusters and untreated producers in control market clusters. 
+
+\section{Empirical analysis}
+
+\subsection{Outcomes of interest}
+
+\subsubsection{Producer}
+\begin{enumerate}
+    \item Producer awareness of aflatoxin
+    \begin{enumerate}
+        \item has heard of aflatoxin
+        \item knows aflatoxin occurs in kulikuli
+     \item knowledge of aflatoxin health effects (inverse covariance weighted sum of the below)
+         \begin{enumerate}
+            \item knows aflatoxin is harmful
+            \item knows aflatoxin causes cancer
+            \item knows aflatoxin harms liver
+            \item knows aflatoxin can cause stunting in children
+        \end{enumerate}
+
+      \item knowledge of aflatoxin origin and risk-prevention (inverse covariance weighted sum of the below)
+        \begin{enumerate}
+       \item knows aflatoxin occurs in groundnuts
+       \item knows that preventing aflatoxin in kulikuli  requires not using bad nuts
+        \item knows traits of groundnuts at risk of aflatoxin 
+
+        \item knows aflatoxin cannot be removed by cleaning or cooking
+    \end{enumerate}
+    \end{enumerate}
+    \item Price paid for nut stock
+    \item Source of nut stock 
+    \begin{enumerate}
+        \item different than baseline
+        \item number of locations
+    \end{enumerate}
+    \item Time spent sorting nuts
+    \item Quantity of nuts sorted out
+    \item Quantity of kulikuli produced
+    \item Quantity of kulikuli sold
+    \item Price received for kulikuli
+    %\item Where do you sell kulikuli (different than baseline)
+    \item Quantity of kulikuli consumed in household
+    \item Aflatoxin in kulikuli 
+    \begin{enumerate}
+        \item log parts per billion (IHST PPB)
+        \item whether above 10 BBP threshold
+    \end{enumerate}
+\end{enumerate}
+
+\subsubsection{Consumer}
+\begin{enumerate}
+    \item Kulikuli selection criteria 
+    \begin{enumerate}
+        \item convenience/proximity
+        \item price
+        \item know vendor/usual vendor
+        \item taste
+        \item freshness
+        \item safety/cleanliness
+        \item vendor has been trained
+        \item vendor quality rating
+    \end{enumerate}    
+    \item Perceives there to be a quality difference between vendors
+    \item Total quantity of kulikuli purchased in past week
+    \item Price paid for kulikuli last week
+   % \item Frequency of kulikuli purchases
+      \item Consumer awareness of aflatoxin
+        \begin{enumerate}
+        \item aware of negative health risk of kulikuli
+         \item aware of food safety risk of kulikuli (as opposed to it being generically unhealthy)
+        \item has heard of aflatoxin specifically 
+        \item knowledge of aflatoxin health effects (inverse covariance weighted sum of the below)
+        \begin{enumerate}
+            \item knows aflatoxin is harmful
+            \item knows aflatoxin causes cancer
+            \item knows aflatoxin harms liver
+            \item knows aflatoxin can cause stunting in children
+            
+        \end{enumerate}
+
+         
+         \end{enumerate}
+
+        
+        \item Youngest consumer of kulikuli in the household
+    \item Consumer awareness of certification program  (inverse covariance weighted sum of the below)
+        \begin{enumerate}
+        \item is aware of the training and certification program
+        \item can correctly state how to identify a certified producer (signage)
+        \item can name or identify a certified producer
+        \item has purchased from a certified producer
+    \end{enumerate}
+
+\subsubsection{Demand for training and certification}
+
+\noindent The outcome variable of interest is whether the producer chose training and testing over a cash payment.
+
+\subsection{Hypothesis testing}
+
+\noindent We will estimate intent to treat (ITT) effects on the above outcomes. We prefer this approach to estimating LATE effects (on producers who enroll in the certification program) because of the market-level nature of the treatment. 
+
+\subsection{Producer outcomes}
+
+\noindent We will have producer outcome data from surveys at baseline ($Y_0$) and at four moments post-treatment ($Y_1$, $Y_2$, $Y_3$, and $Y_4$). We will have aflatoxin data at baseline ($Y_0$) and two moments post treatment ($Y_1$ and $Y_4$). We regress each outcome on a variable for producer $i$ in market cluster $j$ being treated ($TT_{ij}$) and a variable for producer $i$ being untreated in treated market cluster $j$ ($CT_{ij}$). The omitted group is producers in untreated market clusters. We control for survey round fixed effects ($\phi_t)$, the outcome at baseline ($Y_{0ij}$) when available, market cluster  strata bin dummies ($\lambda_j$), and a vector of time-invariant controls ($X_{ij}$). The model is specified as:
+
+\begin{equation}
+    Y_{ijt}=  \beta_1 TT_{ij} + \beta_2 CT_{ij} + \beta_3 Y_{ij0} + \mathbf{X_{ij}'\theta} + \sum \phi_t + \sum \lambda_j + \varepsilon_{ijt},
+    \label{eqn:model_prod}
+\end{equation}
+
+
+\noindent The estimate for $\beta_1$ is the effect of the joint producer and consumer intervention on treated producers, relative to an untreated producer in an untreated market cluster. The estimate for $\beta_2$ is the effect of being an untreated producer in a treated market cluster relative to an untreated producer in an untreated market cluster.
+
+\subsection{Consumer outcomes}
+
+\noindent We will have consumer data at baseline ($Y_0$) and four moments post-treatment ($Y_1$, $Y_2$, $Y_3$, and $Y_4$). We regress each outcome on a variable for consumer $i$ purchasing ex ante from a treated producer ($TT_{ij}$) and for consumer $i$ purchasing from an untreated producer in treated market cluster $j$ ($CT_{ij}$). The omitted group is for consumers in untreated market clusters.  We control for for survey round fixed effects ($\phi_t)$, the outcome at baseline ($Y_{0ij}$) when available, market cluster ($\lambda_j$) strata bin dummies, and a vector of time-invariant controls ($X_{ij}$). The model is specified as:
+
+\begin{equation}
+    Y_{ijt}=  \beta_1 TT_{ij} + \beta_2 CT_{ij} + \beta_3 Y_{ij0} + \mathbf{X_{ij}'\theta} + \sum \phi_t + \sum \lambda_j + \varepsilon_{ijt},
+    \label{eqn:model_cons}
+\end{equation}
+
+\subsection{Demand for testing and certification}
+
+\noindent To derive a demand curve for training and certification we will regress a binary variable for whether a producer enrolls in training ($Y_{ij})$ on the opportunity cost of doing so. The opportunity cost will be a randomly determined small cash payment that a producer can elect to receive instead of training and certification. To allow for non-linearity we will use a vector of price dummy variables ($\mathbf{P_{ij}}$). Initially we control for market cluster treatment status ($T_j$). We also include time invariant controls and market cluster strata bin dummies. The model is specified as:
+
+\begin{equation}
+   Y_{ij}=   \mathbf{P_{ij}'\beta_P} + \beta_2 T_{j} +\mathbf{X_{ij}'\theta} + \sum \lambda_j + \varepsilon_{ijt}.
+    \label{eqn:model_demand1}
+\end{equation}
+
+We then interact $P_{ij}$ and $T_j$ to determine if demand is different for those with certified producers already in their market cluster and those without: 
+
+\begin{equation}
+   Y_{ij}=  P_{ij}'\beta_P  + \beta_2 T_{j} + (T_{j} \times \mathbf{P_{ij}})' \mathbf{\beta_{PT}} + \mathbf{X_{ij}'\theta} + \sum \lambda_j + \varepsilon_{ijt}.
+   \label{eqn:model_demand2}
+\end{equation}
+
+
+\subsection{Power calculations}
+\noindent We have a clustered treatment and multiple rounds of post-intervention data. The Stata command clustersampsi accommodates clustered treatment, but not multiple rounds of post-intervention data. The Stata command sampsi accommodates multiple treatment rounds, but not clustered treatment. I first use sampsi to find the minimum detectable effect (MDE) without accounting for clustering. I then use clustersampsi to find the design effect (with one round of post-intervention data), and use that design effect to update the previously calculated MDEs. 
+
+\subsubsection{Producer data}
+I use the sampsi command to calculate MDE in standard deviations by using a generic outcome variable with mean zero in the control group and a standard deviation of one. With a sample size of 240 observations per treatment arm, $\alpha=0.05$, $\beta=0.8$, and a correlation of 0.1 between the pre- and post-intervention outcomes, the MDE is 0.25 standard deviations. With two rounds of post-intervention data (as we will have for aflatoxin) and a correlation of 0.3 between post-intervention rounds, the MDE becomes 0.20. With four rounds of post-intervention data, the MDE becomes 0.17.\footnote{Stata code: sampsi 0.0 0.25,  sd1(1) sd2(1) pre(1) r01(0.2) n(240); sampsi 0.0 0.20,  sd1(1) sd2(1) pre(1) r01(0.2) n(240) post(2) r1(0.3);  sampsi 0.0 0.17,  sd1(1) sd2(1) pre(1) r01(0.2) n(340) post(4) r1(0.3).}
+
+With $k=40$ market clusters per treatment arm, $m=6$ observations per cluster, and an intra-cluster correlation (ICC) of $\rho=0.1$, the design effect is 1.5. This means that the MDE with the clustered treatment is $\sqrt{1.50}=1.225$ times greater than the MDE under individual treatment. With an ICC of 0.2 the design effect is 2.00 and the MDE with the clustered treatment is $\sqrt{2.80}=1.414$ times greater than the MDE under individual treatment.\footnote{Stata code: clustersampsi, detectabledifference mu1(0.0) sd1(1) sd2(1)  rho(0.1) k(40) m(6)  base\_correl(0.2);Stata code: clustersampsi, detectabledifference mu1(0.0) sd1(1) sd2(1)  rho(0.2) k(40) m(6)  base\_correl(0.2).} Thus, with two post-intervention observations (aflatoxin), the MDE will be 0.25 standard deviations with $\rho=0.1$ and 0.28 standard deviations with $\rho=0.2$. With four post-intervention observations (survey data), the MDE will be 0.21 standard deviations with $\rho=0.1$ and 0.24 standard deviations with $\rho=0.2$.
+
+\subsubsection{Consumer data}
+We plan to have two consumer observations for every producer observation. I use the sampsi command to calculate MDE in standard deviations by using a generic outcome variable with mean zero in the control group and a standard deviation of one. With a sample size of 480 observations per treatment arm, $\alpha=0.05$, $\beta=0.8$, and a correlation of 0.1 between the pre- and post-intervention outcomes, the MDE is 0.177 standard deviations. With two rounds of post-intervention data (as we will have for aflatoxin) and a correlation of 0.3 between post-intervention rounds, the MDE becomes 0.13. With two rounds of post-intervention data, the MDE becomes 0.17.\footnote{Stata code: sampsi 0.0 0.177,  sd1(1) sd2(1) pre(1) r01(0.2) n(240); sampsi 0.0 0.13,  sd1(1) sd2(1) pre(1) r01(0.2) n(240) post(2) r1(0.3).}
+
+With $k=40$ market clusters per treatment arm, $m=12$ observations per cluster, and an intra-cluster correlation (ICC) of $\rho=0.1$, the design effect is 2.1. This means that the MDE with the clustered treatment is $\sqrt{2.1}=1.789$ times greater than the MDE under individual treatment. With an ICC of 0.2 the design effect is 3.2 and the MDE with the clustered treatment is $\sqrt{3.2}=1.884$.\footnote{Stata code: clustersampsi, detectabledifference mu1(0.0) sd1(1) sd2(1)  rho(0.1) k(40) m(12)  base\_correl(0.2);Stata code: clustersampsi, detectabledifference mu1(0.0) sd1(1) sd2(1)  rho(0.2) k(40) m(12)  base\_correl(0.2).}. Thus, with two post-intervention observations, the MDE will be 0.189 standard deviations with $\rho=0.1$ and 0.233 standard deviations with $\rho=0.2$.
+
+These are considered small to medium-sized effects \citep{cohen1988}, and we believe it would be reasonable to find effects in this size range on producer behavior if our intervention is effective. \cite{magnan2021information} finds that training groundnut farmers on aflatoxin and post harvest practices increases the probability of using a drying tarp by 0.41 standard deviations, the probability of sorting nuts before storage by 0.26 standard deviations, and a good practice index by 0.28 standard deviations. Aflatoxin is a notoriously noisy outcome, so our MDEs may on the large side.  \cite{magnan2021information} find that providing farmers with tarps decreases aflatoxin by 0.19 standard deviations and decreases the probability of surpassing a 15 PPB threshold by 0.215 PPB. 
+
+
+
+\bibliographystyle{apa-good.bst}
+\bibliography{Kulikuli.bib}
+
+\end{document}
